@@ -1,0 +1,76 @@
+body{
+    font-size:16px;
+    color:white;
+    background-color:#530fad;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+/** HEADER **/
+#header-nav{
+    background-color:#8243d6;
+    border-radius:0;
+    border:0;
+}
+.navbar-brand {
+    padding-top: 20px;
+    font-size:20px;
+
+}
+.navbar-brand a {/* Restaurant name */
+    font-family: 'Lora', serif;
+    color:black;
+    font-size:1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: .75;
+    font-size:20px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+#nav-list li{
+    border: 1px solid white;
+    margin-left: 0;
+    margin-right: 0;
+    color:#80bad1;
+    font-weight:bold;
+}
+#nav-list a{
+    font-size: 1.2em;
+    text-align: center;
+    color:#80bad1;
+    font-weight:bold;
+}
+
+#nav-list a:hover{
+    background-color:#e5e4d7;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border:1px solid #80bad1;
+}
+/* End Header */
+
+/* Section */
+#home{
+    margin-bottom: 30px;
+}
+
+.row{
+    position: relative;
+    float:left;
+}
+
+.row > div > article{
+    background-color:white;
+    text-align: justify;
+    margin-bottom: 18px;
+    padding:14px;
+    color:black;
+}
+
+}
+/* End Section */
+
